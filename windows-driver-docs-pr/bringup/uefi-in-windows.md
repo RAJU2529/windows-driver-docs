@@ -69,6 +69,19 @@ OEMs that choose to implement UEFI applications should make sure that they have 
 
  
 
+01. Presentations  and  videos of UEFI   are  available  in 
+https://uefi.org/learning_center/presentationsandvideos
+
+02. Developers can use fwts for  testing their system embeddeds firmware on their products using FWTS.
+
+03. Latest  UEFI Firmware  Test Suite v19.02.00.img is available  in this website 
+http://fwts.ubuntu.com/fwts-live/fwts-live-19.02.00.img
+
+04. Use third Party  tools  like Rufus software to create  usb bootable  pendrive and disable uefi mode or disable secure boot and enable legacy boot mode or enable  CSM in bios , before booting with pendrive.
+
+05. After booting ,test all the fetaures wait for few minutes upto 30minutes . Once finshed results will be  stored in root of hthe drive ( usb pendrive )
+
+
 ## Related topics
 [UEFI protocols for Windows](uefi-protocols-for-windows.md)  
 
